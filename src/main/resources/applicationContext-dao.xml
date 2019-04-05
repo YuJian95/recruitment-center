@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+    <bean id="helper" class="com.rc.common.RcHibernateHelper">
+        <property name="hibernateTemplate" ref="hibernateTemplate"/>
+    </bean>
+
+    <bean id="adminDao" class="com.rc.dao.RcAdminDao"/>
+    <bean id="applicationDao" class="com.rc.dao.RcApplicationDao"/>
+    <bean id="companyDao" class="com.rc.dao.RcCompanyDao"/>
+    <bean id="jobDao" class="com.rc.dao.RcJobDao"/>
+    <bean id="personDao" class="com.rc.dao.RcPersonDao"/>
+    <bean id="newsDao" class="com.rc.dao.RcNewsDao"/>
+</beans>

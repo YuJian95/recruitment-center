@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE hibernate-mapping PUBLIC
+        "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+        "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+
+    <class name="com.rc.model.RcPerson" table="rc_person" schema="rc">
+        <id name="userId" type="java.lang.Integer" column="per_id"/>
+        <property name="userName" type="java.lang.String" column="per_userName"/>
+        <property name="userPwd" type="java.lang.String" column="per_pwd"/>
+        <property name="perRealName" type="java.lang.String" column="per_realName"/>
+        <property name="perSex" type="java.lang.String" column="per_sex"/>
+        <property name="perBirthDate" type="java.lang.String" column="per_birthDate"/>
+        <property name="perIDCard" type="java.lang.String" column="per_IDCard"/>
+        <property name="perNature" type="java.lang.String" column="per_nature"/>
+        <property name="perMarried" type="java.lang.String" column="per_married"/>
+        <property name="perRegResidence" type="java.lang.String" column="per_regResidence"/>
+        <property name="perEducation" type="java.lang.String" column="per_education"/>
+        <property name="perSchool" type="java.lang.String" column="per_school"/>
+        <property name="perTel" type="java.lang.String" column="per_tel"/>
+        <property name="perEmail" type="java.lang.String" column="per_email"/>
+        <property name="perAddr" type="java.lang.String" column="per_addr"/>
+        <property name="perPic" type="java.lang.String" column="per_pic"/>
+        <property name="perResume" type="java.lang.String" column="per_resume"/>
+        <property name="perJobTarget" type="java.lang.String" column="per_jobTarget"/>
+        <property name="perPostTime" type="timestamp" column="per_postTime"/>
+    </class>
+</hibernate-mapping>

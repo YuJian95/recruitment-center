@@ -1,0 +1,25 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE hibernate-configuration PUBLIC
+    "-//Hibernate/Hibernate Configuration DTD//EN"
+    "http://www.hibernate.org/dtd/hibernate-configuration-3.0.dtd">
+<hibernate-configuration>
+  <session-factory>
+    <property name="connection.url">jdbc:mysql://192.168.30.143:3306/rc</property>
+    <property name="connection.driver_class">com.mysql.jdbc.Driver</property>
+    <mapping class="com.rc.model.RcAdmin"/>
+    <mapping resource="com/rc/hbm/RcAdmin.hbm.xml"/>
+    <mapping resource="com/rc/hbm/RcApplication.hbm.xml"/>
+    <mapping class="com.rc.model.RcApplication"/>
+    <mapping class="com.rc.model.RcCompany"/>
+    <mapping resource="com/rc/hbm/RcCompany.hbm.xml"/>
+    <mapping class="com.rc.model.RcJob"/>
+    <mapping resource="com/rc/hbm/RcJob.hbm.xml"/>
+    <mapping resource="com/rc/hbm/RcNews.hbm.xml"/>
+    <mapping class="com.rc.model.RcNews"/>
+    <mapping resource="com/rc/hbm/RcPerson.hbm.xml"/>
+    <mapping class="com.rc.model.RcPerson"/>
+
+    <!-- DB schema will be updated if needed -->
+    <!-- <property name="hbm2ddl.auto">update</property> -->
+  </session-factory>
+</hibernate-configuration>

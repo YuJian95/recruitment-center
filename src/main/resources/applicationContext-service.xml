@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+    <bean id="adminService" class="com.rc.service.RcAdminService"/>
+    <bean id="applicationService" class="com.rc.service.RcApplicationService"/>
+    <bean id="companyService" class="com.rc.service.RcCompanyService"/>
+    <bean id="jobService" class="com.rc.service.RcJobService"/>
+    <bean id="personService" class="com.rc.service.RcPersonService"/>
+    <bean id="newsService" class="com.rc.service.RcNewsService"/>
+</beans>

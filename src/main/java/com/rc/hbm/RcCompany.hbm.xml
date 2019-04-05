@@ -1,0 +1,25 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE hibernate-mapping PUBLIC
+        "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+        "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+
+    <class name="com.rc.model.RcCompany" table="rc_company" schema="rc">
+        <id name="userId" type="java.lang.Integer" column="com_id"/>
+        <property name="userName" type="java.lang.String" column="com_userName"/>
+        <property name="userPwd" type="java.lang.String" column="com_pwd"/>
+        <property name="comName" type="java.lang.String" column="com_name"/>
+        <property name="comType" type="java.lang.String" column="com_type"/>
+        <property name="comCreateTime" type="java.lang.String" column="com_createTime"/>
+        <property name="comContactor" type="java.lang.String" column="com_contactor"/>
+        <property name="comEmpNum" type="java.lang.String" column="com_empNum"/>
+        <property name="comTel" type="java.lang.String" column="com_tel"/>
+        <property name="comFax" type="java.lang.String" column="com_fax"/>
+        <property name="comAddr" type="java.lang.String" column="com_addr"/>
+        <property name="comZip" type="java.lang.String" column="com_zip"/>
+        <property name="comHomepage" type="java.lang.String" column="com_homepage"/>
+        <property name="comEmail" type="java.lang.String" column="com_email"/>
+        <property name="comDesc" type="text" column="com_desc"/>
+        <property name="comPostTime" type="timestamp" column="com_postTime"/>
+    </class>
+</hibernate-mapping>

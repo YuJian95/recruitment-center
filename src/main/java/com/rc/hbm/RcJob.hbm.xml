@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE hibernate-mapping PUBLIC
+        "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+        "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+
+    <class name="com.rc.model.RcJob" table="rc_job" schema="rc">
+        <id name="jobId" type="java.lang.Integer" column="job_id"/>
+        <many-to-one name="company" column="com_id" class="com.rc.model.RcCompany" lazy="false"/>
+        <property name="jobTitle" type="java.lang.String" column="job_title"/>
+        <property name="jobType" type="java.lang.String" column="job_type"/>
+        <property name="jobEducation" type="java.lang.String" column="job_education"/>
+        <property name="jobSex" type="java.lang.String" column="job_sex"/>
+        <property name="jobAge" type="java.lang.String" column="job_age"/>
+        <property name="jobWorkTime" type="java.lang.String" column="job_workTime"/>
+        <property name="jobWorkPlace" type="java.lang.String" column="job_workPlace"/>
+        <property name="jobNum" type="java.lang.Integer" column="job_num"/>
+        <property name="jobEndTime" type="timestamp" column="job_endTime"/>
+        <property name="jobComment" type="text" column="job_comment"/>
+        <property name="comPostTime" type="timestamp" column="job_postTime"/>
+    </class>
+</hibernate-mapping>

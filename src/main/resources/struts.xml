@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE struts PUBLIC
+        "-//Apache Software Foundation//DTD Struts Configuration 2.0//EN"
+        "http://struts.apache.org/dtds/struts-2.0.dtd">
+
+<struts>
+    <!-- 修改常量管理struts 中的action的工程，这个常量的使用，必须引入 spring和struts的整合包，不然spring无法管理struts2 Action 中的实体类-->
+    <constant name="struts.objectFactory" value="spring"/>
+    <package name="yujian95" extends="struts-default">
+        <interceptors>
+            <interceptor name="myinterceptor" class="com.rc.common.RcRightCheckInterceptor"/>
+            <interceptor-stack name="myinterceptorStack">
+                <interceptor-ref name="defaultStack"/>
+                <interceptor-ref name="myinterceptor"/>
+            </interceptor-stack>
+        </interceptors>
+
+        <global-results>
+            <result name="error">/common/error.jsp</result>
+            <result name="msg">/common/msg.jsp</result>
+            <result name="index" type="redirect">/index.jsp</result>
+            <result name="first">/common/first.jsp</result>
+        </global-results>
+
+        <global-exception-mappings>
+            <exception-mapping exception="java.lang.Exception" result="error"/>
+        </global-exception-mappings>
+
+        <action name="RcHomeAction" class="com.rc.action.RcHomeAction"/>
+        <action name="RcAdminAction" class="com.rc.action.RcAdminAction"/>
+        <action name="RcNewsAction" class="com.rc.action.RcNewsAction">
+            <result name="manage">/news/manage.jsp</result>
+            <result name="browse">/news/browse.jsp</result>
+            <result name="willedit">/news/edit.jsp</result>
+            <result name="show">/news/show.jsp</result>
+            <result name="manageaction" type="redirectAction">
+                <param name="actionName">
+                    RcNewsAction!manage.action?pageNo=${pageNo}
+                </param>
+            </result>
+            <interceptor-ref name="myinterceptorStack"/>
+        </action>
+        <action name="RcCompanyAction" class="com.rc.action.RcCompanyAction">
+            <result name="manage">/company/manage.jsp</result>
+            <result name="browse">/company/browse.jsp</result>
+            <result name="willedit">/company/edit.jsp</result>
+            <result name="show">/company/show.jsp</result>
+            <result name="manageaction" type="redirectAction">
+                <param name="actionName">
+                    RcCompanyAction!manage.action?pageNo=${pageNo}
+                </param>
+            </result>
+            <interceptor-ref name="myinterceptorStack"/>
+        </action>
+        <action name="RcPersonAction" class="com.rc.action.RcPersonAction">
+            <result name="manage">/person/manage.jsp</result>
+            <result name="browse">/person/browse.jsp</result>
+            <result name="willedit">/person/edit.jsp</result>
+            <result name="show">/person/show.jsp</result>
+            <result name="manageaction" type="redirectAction">
+                <param name="actionName">
+                    RcPersonAction!manage.action?pageNo=${pageNo}
+                </param>
+            </result>
+            <interceptor-ref name="fileUpload">
+                <param name="allowedTypes">image/jpeg</param>
+                <param name="maximumSize">2000</param>
+            </interceptor-ref>
+            <interceptor-ref name="myinterceptorStack"/>
+        </action>
+        <action name="RcJobAction" class="com.rc.action.RcJobAction">
+            <result name="manage">/job/manage.jsp</result>
+            <result name="browse">/job/browse.jsp</result>
+            <result name="willedit">/job/edit.jsp</result>
+            <result name="show">/job/show.jsp</result>
+            <result name="manageaction" type="redirectAction">
+                <param name="actionName">
+                    RcJobAction!manage.action?pageNo=${pageNo}
+                </param>
+            </result>
+            <interceptor-ref name="myinterceptorStack"/>
+        </action>
+        <action name="RcApplication" class="com.rc.action.RcApplicationAction">
+            <result name="manage">/application/manage.jsp</result>
+            <result name="browse">/application/browse.jsp</result>
+            <result name="manageaction" type="redirectAction">
+                <param name="actionName">
+                    RcApplication!manage.action?pageNo=${pageNo}
+                </param>
+            </result>
+            <result name="broweaction" type="redirectAction">
+                <param name="actionName">
+                    RcApplication!browse.action?pageNo=${pageNo}
+                </param>
+            </result>
+            <interceptor-ref name="myinterceptorStack"/>
+        </action>
+    </package>
+</struts>

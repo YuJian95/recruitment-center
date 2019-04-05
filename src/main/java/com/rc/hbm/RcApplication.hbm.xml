@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE hibernate-mapping PUBLIC
+    "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+    "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+
+    <class name="com.rc.model.RcApplication" table="rc_application" schema="rc">
+        <id name="appId" column="app_id"/>
+        <many-to-one name="job" class="com.rc.model.RcJob" column="job_id" lazy="false"/>
+        <many-to-one name="person" class="com.rc.model.RcPerson" column="per_id" lazy="false"/>
+        <property name="appPostTime" type="timestamp" column="app_postTime"/>
+        <property name="appResponse" type="java.lang.String" column="app_response"/>
+        <property name="appRspTime" type="java.lang.String" column="app_rspTime"/>
+    </class>
+</hibernate-mapping>

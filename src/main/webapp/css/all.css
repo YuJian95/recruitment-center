@@ -1,0 +1,162 @@
+@charset "utf-8";
+body {
+    margin: 0;
+    text-align: center;
+    font-sfze: 14px;
+    font-family: 宋体, arial;
+}
+
+input, select, textarea, table {
+    font-size: 14px;
+}
+
+a {
+    font-size: 14px;
+    color: #000080;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #0000ff;
+}
+
+P {
+    clear: both;
+    margin: 5px 0 0 0;
+    padding: 0 0 0 10px;
+}
+
+#container {
+    width: 1024px;
+    margin: 0px auto;
+    background-color: #66FFFF
+
+}
+
+#header {
+    height: 146px;
+    background: url(../images/main.gif) 0 0 repeat-x;
+    border-bottom: 1px solid #999999;
+}
+
+#menu {
+    background-color: #00FFFF;
+    width: 100%;
+}
+
+menu ul {
+    margin: 0px auto;
+    padding: 0px;
+    list-style-type: none;
+    height: 30px;
+    width: 700px;
+    line-height: 30px;
+    text-align: center;
+}
+
+menu ul li {
+    width: 140px;
+    float: left;
+    text-align: center;
+}
+
+pagebody {
+    clear: both;
+    width: 100%;
+    min-height: 300px;
+    border-top: 1px solid #999999;
+    text-align: center;
+    font-size: 14px;
+}
+
+#pagebody form p {
+    clear: both;
+    margin: 5px 0 0 0;
+    padding: 0;
+    line-height: 20px;
+}
+
+#pagebody #left {
+    float: left;
+    width: 22%;
+    height: 350px;
+    background-color: #CEE7FF;
+    text-align: left;
+}
+
+#pagebody #left p {
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    font-size: 14px;
+}
+
+#pagebody #right {
+    float: right;
+    height: 300px;
+    width: 75%;
+    text-align: left;
+}
+
+#content {
+    min-height: 400px;
+    min-width: 600px;
+}
+
+#footer {
+    clear: both;
+    height: 60px;
+    width: 100%;
+    text-align: center;, line-height: 150;
+    font-family: Arial;
+}
+
+table.mytable1 {
+    width: 98%;
+    margin: 0px auto;
+    margin-top: 15px;
+    border-top: 1px solid #0099CC;
+    border-bottom: 1px solid #0099cC;
+    font-size: 14px;
+
+}
+
+table.mytablel th {
+    background-color: #CEE7FF;
+    border-left: 1px dotted #0099CC;
+    text-align: center;
+    font-weight: normal;
+}
+
+table.mytablel td {
+    border-top: 1px dotted #0099CC;
+    border-left: 1px dotted #0099CC;
+    text-align: center;
+}
+
+table.mytable2 {
+    width: 598px;
+    margin: 0px auto;
+    margin-top: 15px;
+    border-top: 1px solid #0099Cc;
+    border-left: 1px solid #0099CC;
+    border-right: 1px solid #0099CC;
+}
+
+table.mytable2 th {
+    width: 100px;
+    background-color: #CEE7FF;
+    border-bottom: 1px solid #0099cc;
+    border-right: 1px solid #0099CC;
+    padding-right: 5px;
+    text-align: right;
+    font-weight: normal;
+}
+
+table.mytable2 td {
+    text-align: left;
+    padding-left: 5px;
+    border-bottom: 1px solid #0099CC;
+}
+
+
