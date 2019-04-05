@@ -7,172 +7,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9cd57daa-0c10-440a-8f0a-41f3191f7285" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/rc/action/RcAdminAction.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/rc/action/RcApplicationAction.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/rc/action/RcCompanyAction.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/rc/action/RcHomeAction.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/rc/action/RcJobAction.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/rc/action/RcNewsAction.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/rc/action/RcPersonAction.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/rc/common/RcHibernateHelper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/rc/common/RcPageList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/rc/common/RcRightCheckInterceptor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/rc/common/RcTransactionInterceptor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/rc/dao/RcAdminDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/rc/dao/RcApplicationDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/rc/dao/RcBaseDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/rc/dao/RcCompanyDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/rc/dao/RcJobDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/rc/dao/RcNewsDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/rc/dao/RcPersonDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/rc/hbm/RcAdmin.hbm.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/rc/hbm/RcApplication.hbm.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/rc/hbm/RcCompany.hbm.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/rc/hbm/RcJob.hbm.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/rc/hbm/RcNews.hbm.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/rc/hbm/RcPerson.hbm.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/rc/idao/IRcAdminDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/rc/idao/IRcApplicationDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/rc/idao/IRcBaseDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/rc/idao/IRcCompanyDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/rc/idao/IRcJobDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/rc/idao/IRcNewsDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/rc/idao/IRcPersonDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/rc/iservice/IRcAdminService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/rc/iservice/IRcApplicationService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/rc/iservice/IRcCompanyService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/rc/iservice/IRcJobService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/rc/iservice/IRcNewsService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/rc/iservice/IRcPersonService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/rc/model/RcAdmin.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/rc/model/RcApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/rc/model/RcCompany.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/rc/model/RcJob.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/rc/model/RcNews.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/rc/model/RcPerson.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/rc/model/RcUser.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/rc/service/RcAdminService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/rc/service/RcApplicationService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/rc/service/RcCompanyService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/rc/service/RcJobService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/rc/service/RcNewsService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/rc/service/RcPersonService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/rc/tag/RcUserStateTag.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/applicationContext-dao.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/applicationContext-db.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/applicationContext-service.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/applicationContext-tr.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/hibernate.cfg.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/jdbc.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/lib/antlr-2.7.7.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/lib/aopalliance.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/lib/asm-3.3.1.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/lib/asm-commons-3.3.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/lib/asm-tree-3.3.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/lib/freemarker-2.3.22.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/lib/ognl-3.0.19.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/lib/org.springframework.transaction-3.1.2.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/lib/spring-aop-3.2.3.RELEASE-javadoc.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/lib/spring-aop-3.2.3.RELEASE-sources.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/lib/spring-aop-3.2.3.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/lib/spring-aop-4.1.6.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/lib/spring-aspects-3.2.3.RELEASE-javadoc.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/lib/spring-aspects-3.2.3.RELEASE-sources.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/lib/spring-aspects-3.2.3.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/lib/spring-beans-3.2.3.RELEASE-javadoc.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/lib/spring-beans-3.2.3.RELEASE-sources.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/lib/spring-beans-3.2.3.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/lib/spring-build-src-3.2.3.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/lib/spring-context-3.2.3.RELEASE-javadoc.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/lib/spring-context-3.2.3.RELEASE-sources.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/lib/spring-context-3.2.3.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/lib/spring-context-support-3.2.3.RELEASE-javadoc.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/lib/spring-context-support-3.2.3.RELEASE-sources.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/lib/spring-context-support-3.2.3.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/lib/spring-core-3.2.3.RELEASE-javadoc.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/lib/spring-core-3.2.3.RELEASE-sources.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/lib/spring-core-3.2.3.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/lib/spring-expression-3.2.3.RELEASE-javadoc.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/lib/spring-expression-3.2.3.RELEASE-sources.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/lib/spring-expression-3.2.3.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/lib/spring-instrument-3.2.3.RELEASE-javadoc.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/lib/spring-instrument-3.2.3.RELEASE-sources.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/lib/spring-instrument-3.2.3.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/lib/spring-instrument-tomcat-3.2.3.RELEASE-javadoc.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/lib/spring-instrument-tomcat-3.2.3.RELEASE-sources.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/lib/spring-instrument-tomcat-3.2.3.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/lib/spring-jdbc-3.2.3.RELEASE-javadoc.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/lib/spring-jdbc-3.2.3.RELEASE-sources.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/lib/spring-jdbc-3.2.3.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/lib/spring-jms-3.2.3.RELEASE-javadoc.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/lib/spring-jms-3.2.3.RELEASE-sources.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/lib/spring-jms-3.2.3.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/lib/spring-orm-3.2.3.RELEASE-javadoc.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/lib/spring-orm-3.2.3.RELEASE-sources.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/lib/spring-orm-3.2.3.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/lib/spring-oxm-3.2.3.RELEASE-javadoc.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/lib/spring-oxm-3.2.3.RELEASE-sources.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/lib/spring-oxm-3.2.3.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/lib/spring-struts-3.2.3.RELEASE-javadoc.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/lib/spring-struts-3.2.3.RELEASE-sources.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/lib/spring-struts-3.2.3.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/lib/spring-test-3.2.3.RELEASE-javadoc.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/lib/spring-test-3.2.3.RELEASE-sources.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/lib/spring-test-3.2.3.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/lib/spring-tx-3.2.3.RELEASE-javadoc.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/lib/spring-tx-3.2.3.RELEASE-sources.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/lib/spring-tx-3.2.3.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/lib/spring-web-3.2.3.RELEASE-javadoc.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/lib/spring-web-3.2.3.RELEASE-sources.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/lib/spring-web-3.2.3.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/lib/spring-webmvc-3.2.3.RELEASE-javadoc.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/lib/spring-webmvc-3.2.3.RELEASE-sources.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/lib/spring-webmvc-3.2.3.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/lib/spring-webmvc-portlet-3.2.3.RELEASE-javadoc.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/lib/spring-webmvc-portlet-3.2.3.RELEASE-sources.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/lib/spring-webmvc-portlet-3.2.3.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/lib/struts2-core-2.3.32.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/lib/struts2-spring-plugin-2.3.32.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/lib/xwork-core-2.3.32.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/struts.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/struts.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/mytag.tld" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/admin/edit.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/admin/index.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/application/browse.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/application/manage.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/application/return.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/common/bottom.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/common/error.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/common/first.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/common/msg.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/common/top.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/company/add.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/company/browse.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/company/edit.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/company/index.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/company/manage.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/company/show.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/css/all.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/main.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/index.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/job/add.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/job/browse.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/job/edit.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/job/manage.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/job/show.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/news/add.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/news/browse.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/news/edit.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/news/manage.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/news/show.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/person/add.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/person/browse.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/person/edit.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/person/index.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/person/manage.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/person/show.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -213,17 +48,7 @@
     <option name="isMigrated" value="true" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="207">
-              <caret line="14" column="12" selection-start-line="14" selection-start-column="12" selection-end-line="14" selection-end-column="12" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -354,13 +179,6 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectConfigurationFiles">
-    <option name="files">
-      <list>
-        <option value="$PROJECT_DIR$/.idea/vcs.xml" />
-      </list>
-    </option>
-  </component>
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="396" />
     <option name="width" value="977" />
@@ -373,17 +191,7 @@
     </navigator>
     <panes>
       <pane id="Scope" />
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="rc" type="b2602c69:ProjectViewProjectNode" />
-              <item name="rc" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
+      <pane id="ProjectPane" />
       <pane id="PackagesPane" />
     </panes>
   </component>
@@ -395,7 +203,7 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1554348828506" />
     <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="JSP" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/webapp" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -406,21 +214,22 @@
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.24334976" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
-    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+    <property name="settings.editor.selected.configurable" value="settings.github" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\rc\src\main\webapp" />
-      <recent name="D:\rc\src\main\webapp\test" />
-      <recent name="D:\rc\src\main\webapp\WEB-INF" />
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\rc" />
+      <recent name="D:\rc\src\main\resources\lib" />
+      <recent name="D:\rc\src\main\webapp\images" />
+      <recent name="D:\rc\src\test" />
     </key>
     <key name="ImportMappingsDialog.RecentPackages">
       <recent name="com.rc.hbm" />
     </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\rc\src\main\resources\lib" />
-      <recent name="D:\rc\src\main\webapp\images" />
-      <recent name="D:\rc\src\test" />
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\rc\src\main\webapp" />
+      <recent name="D:\rc\src\main\webapp\test" />
+      <recent name="D:\rc\src\main\webapp\WEB-INF" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -529,7 +338,7 @@
       <workItem from="1554378361881" duration="7408000" />
       <workItem from="1554426416050" duration="3177000" />
       <workItem from="1554466112316" duration="3363000" />
-      <workItem from="1554470024412" duration="1026000" />
+      <workItem from="1554470024412" duration="2120000" />
     </task>
     <task id="LOCAL-00001" summary="1.0">
       <created>1554470729285</created>
@@ -538,16 +347,37 @@
       <option name="project" value="LOCAL" />
       <updated>1554470729285</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="1.0">
+      <created>1554471205628</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1554471205628</updated>
+    </task>
+    <task id="LOCAL-00003" summary="1.0">
+      <created>1554471237177</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1554471237177</updated>
+    </task>
+    <task id="LOCAL-00004" summary="1.0">
+      <created>1554471596656</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1554471596656</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="87428000" />
+    <option name="totallyTimeSpent" value="88522000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.34567901" visible="true" weight="0.32980332" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.34567901" visible="true" weight="0.14599092" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -558,7 +388,7 @@
       <window_info id="Persistence" order="8" sideWeight="0.14492753" side_tool="true" weight="0.21255673" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.57326895" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.31290323" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.31290323" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -994,10 +824,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/rc.sql">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="207">
-          <caret line="14" column="12" selection-start-line="14" selection-start-column="12" selection-end-line="14" selection-end-column="12" />
+        <state relative-caret-position="437">
+          <caret line="23" column="12" lean-forward="true" selection-start-line="23" selection-start-column="12" selection-end-line="23" selection-end-column="12" />
         </state>
       </provider>
     </entry>
@@ -1012,7 +845,6 @@
             <option name="proportions">
               <list>
                 <option value="0.24334976" />
-                <option value="0.5" />
               </list>
             </option>
           </splitter-proportions>
